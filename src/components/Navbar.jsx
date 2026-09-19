@@ -42,10 +42,10 @@ const Navbar = () => {
     backdropFilter: 'none',
     WebkitBackdropFilter: 'none',
     boxShadow: isScrolled
-      ? '0 4px 12px -4px rgba(13,42,73,0.16)'
+      ? 'inset 0 -2px 0 rgba(23,145,171,0.32), 0 4px 12px -4px rgba(13,42,73,0.16)'
       : 'none',
     borderBottom: isScrolled
-      ? '1px solid rgba(13,42,73,0.10)'
+      ? '1px solid rgba(23,145,171,0.28)'
       : '1px solid transparent',
   }
 
