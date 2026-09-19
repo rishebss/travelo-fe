@@ -37,15 +37,15 @@ const Navbar = () => {
 
   const navStyle = {
     background: isScrolled
-      ? 'linear-gradient(180deg, rgba(23,145,171,0.16) 0%, rgba(23,145,171,0.10) 60%, rgba(23,145,171,0.07) 100%)'
+      ? '#f5f1e8'
       : '#fbfaf6',
-    backdropFilter: isScrolled ? 'blur(10px)' : 'none',
-    WebkitBackdropFilter: isScrolled ? 'blur(10px)' : 'none',
+    backdropFilter: 'none',
+    WebkitBackdropFilter: 'none',
     boxShadow: isScrolled
-      ? 'inset 0 1.5px 0 rgba(255,255,255,0.85), inset 0 -3px 6px -3px rgba(20,123,147,0.25), 0 4px 10px -3px rgba(13,42,73,0.18)'
+      ? '0 4px 12px -4px rgba(13,42,73,0.16)'
       : 'none',
     borderBottom: isScrolled
-      ? '1px solid rgba(23,145,171,0.25)'
+      ? '1px solid rgba(13,42,73,0.10)'
       : '1px solid transparent',
   }
 
