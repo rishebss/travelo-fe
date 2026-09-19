@@ -37,16 +37,14 @@ const Navbar = () => {
 
   const navStyle = {
     background: isScrolled
-      ? '#f5f1e8'
+      ? '#e8f3ef'
       : '#fbfaf6',
     backdropFilter: 'none',
     WebkitBackdropFilter: 'none',
     boxShadow: isScrolled
-      ? 'inset 0 -2px 0 rgba(23,145,171,0.32), 0 4px 12px -4px rgba(13,42,73,0.16)'
+      ? '0 4px 12px -4px rgba(13,42,73,0.16)'
       : 'none',
-    borderBottom: isScrolled
-      ? '1px solid rgba(23,145,171,0.28)'
-      : '1px solid transparent',
+    borderBottom: '1px solid transparent',
   }
 
   const linkColor = isScrolled ? 'text-[#0d2a49]' : 'text-[#0d2a49]'
