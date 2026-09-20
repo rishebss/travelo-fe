@@ -282,7 +282,7 @@ const Resorts = () => {
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
               aria-label="Previous page"
-              className={`group flex-none items-center gap-2 py-2.5 px-4 rounded-md font-semibold text-sm transition-all duration-300 ${
+              className={`group flex h-[42px] flex-none items-center gap-2 py-2.5 px-4 rounded-md font-semibold text-sm transition-all duration-300 sm:h-auto ${
                 currentPage === 1
                   ? 'bg-white/50 text-[#0d2a49]/30 cursor-not-allowed border border-white/60'
                   : 'bg-[rgba(23,145,171,0.62)] backdrop-blur-[10px] text-white border border-white/40 shadow-[0_8px_24px_rgba(13,42,73,0.25)] hover:scale-105 active:scale-95'
@@ -320,7 +320,7 @@ const Resorts = () => {
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
               aria-label="Next page"
-              className={`group flex-none items-center gap-2 py-2.5 px-4 rounded-md font-semibold text-sm transition-all duration-300 ${
+              className={`group flex h-[42px] flex-none items-center gap-2 py-2.5 px-4 rounded-md font-semibold text-sm transition-all duration-300 sm:h-auto ${
                 currentPage === totalPages
                   ? 'bg-white/50 text-[#0d2a49]/30 cursor-not-allowed border border-white/60'
                   : 'bg-[rgba(23,145,171,0.62)] backdrop-blur-[10px] text-white border border-white/40 shadow-[0_8px_24px_rgba(13,42,73,0.25)] hover:scale-105 active:scale-95'
