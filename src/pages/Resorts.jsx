@@ -289,7 +289,7 @@ const Resorts = () => {
               }`}
             >
               <MdOutlineDoubleArrow className="w-4 h-4 rotate-180 group-hover:-translate-x-1 transition-transform duration-300" />
-              <span>Previous</span>
+              <span className="hidden sm:inline">Previous</span>
             </button>
 
             {/* Page Numbers */}
@@ -326,7 +326,7 @@ const Resorts = () => {
                   : 'bg-[rgba(23,145,171,0.62)] backdrop-blur-[10px] text-white border border-white/40 shadow-[0_8px_24px_rgba(13,42,73,0.25)] hover:scale-105 active:scale-95'
               }`}
             >
-              <span>Next</span>
+              <span className="hidden sm:inline">Next</span>
               <MdOutlineDoubleArrow className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
           </motion.div>
