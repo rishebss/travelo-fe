@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <IoMailUnread className="w-5 h-5 mr-3 text-[#1791ab]" />
-                <a href="mailto:info@explorewings.com" className="hover:text-[#1791ab] transition-colors duration-300">info@explorewings.com</a>
+                <a href="mailto:info@travelo.com" className="hover:text-[#1791ab] transition-colors duration-300">info@travelo.com</a>
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="w-5 h-5 mr-3 text-[#1791ab]" />
