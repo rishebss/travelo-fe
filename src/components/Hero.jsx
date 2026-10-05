@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-[#0d2a49]/60 sm:text-lg">
-              From breathtaking and vibrant cultures, we craft unforgettable journeys for you.
+              From breathtaking and vibrant cultures, we craft unforgettable journeys just for you.
             </p>
 
             {/* Category preview cards — below heading, hidden on mobile */}
